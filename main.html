@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Error Form </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="connect.php" method="post">
+            <div class="container">
+              <h1>Error Input</h1>
+              <hr>
+          
+              <label for="checker"><b>Order Checker</b></label>
+              <input type="text" placeholder="Enter Name" name="checker" id="checker" required>
+          
+              <label for="puller"><b>Order Puller</b></label>
+              <input type="text" placeholder="Enter Name" name="puller" id="puller" required>
+          
+              <label for="orderNum"><b>Sales Order #</b></label>
+              <input type="text" placeholder="Enter #" name="orderNum" id="orderNum" required>
+
+              <label for="errors"><b># of Lines Misspulled</b></label>
+              <input type="number" placeholder="Enter # of Lines" name="errors" id="errors" required>
+
+              <label for="orderDate"><b>Date</b></label>
+              <input type="date" name="date" id="Test_DatetimeLocal">
+              <hr>
+          
+              <button type="submit" class="registerbtn">Submit</button>
+            </div>
+          
+          </form>
+    </body>
+</html> 
